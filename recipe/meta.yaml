@@ -1,6 +1,6 @@
 {% set name = "google-cloud-core" %}
-{% set version = "0.24.1" %}
-{% set sha256 = "fe73253dd98965bdd02ac6951afabe9e09bda203fc8065bf285d8d13172afc9c" %}
+{% set version = "0.25.0" %}
+{% set sha256 = "1249ee44c445f820eaf99d37904b37961347019dcd3637dbad1f3173260245f2" %}
 
 package:
   name: {{ name|lower }}
@@ -47,3 +47,4 @@ about:
 extra:
   recipe-maintainers:
     - parthea
+    - tswast
