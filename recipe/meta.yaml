@@ -1,6 +1,6 @@
 {% set name = "google-cloud-core" %}
-{% set version = "0.28.0" %}
-{% set sha256 = "27c62f624cf1ef5010a4aa84db1279f9a2658cc713aeb3e64744513d53ea0bc1" %}
+{% set version = "0.28.1" %}
+{% set sha256 = "89e8140a288acec20c5e56159461d3afa4073570c9758c05d4e6cb7f2f8cc440" %}
 
 package:
   name: {{ name|lower }}
