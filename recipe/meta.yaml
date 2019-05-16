@@ -23,11 +23,15 @@ requirements:
 
   run:
     - python
-    - google-api-core >=0.1.1,<2.0.0dev
+    - google-api-core >=1.11.0,<2.0.0dev
 
 test:
   imports:
+    - google.api_core.client_info
     - google.cloud.client
+    - google.cloud.environment_vars
+    - google.cloud.exceptions
+    - google.cloud.operation
 
 about:
   home: https://github.com/GoogleCloudPlatform/google-cloud-python/tree/master/core
