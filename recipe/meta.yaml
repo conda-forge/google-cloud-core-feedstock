@@ -14,15 +14,13 @@ source:
 build:
   number: 0
   noarch: python
-  script: "python -m pip install . --no-deps -vv"
+  script: "pip install . --no-deps -vv"
 
 requirements:
   build:
     - python
-    - setuptools
-
-  host:
     - pip
+    - setuptools
 
   run:
     - python
