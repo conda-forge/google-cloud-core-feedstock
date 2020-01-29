@@ -1,6 +1,6 @@
 {% set name = "google-cloud-core" %}
-{% set version = "1.1.0" %}
-{% set sha256 = "49036087c1170c3fad026e45189f17092b8c584a9accb2d73d1854f494e223ae" %}
+{% set version = "1.2.0" %}
+{% set sha256 = "4ae0f37ece5f3b5baf9fa5b79b23482cb43a0207e380b5476cd4bd18e3ddd06d" %}
 
 package:
   name: {{ name|lower }}
@@ -24,7 +24,7 @@ requirements:
 
   run:
     - python
-    - google-api-core >=1.14.0,<2.0.0dev
+    - google-api-core >=1.16.0,<2.0.0dev
 
 test:
   imports:
@@ -42,7 +42,7 @@ about:
   summary: 'API Client library for Google Cloud: Core Helpers'
   description: This library is not meant to stand-alone. Instead it defines common helpers
     (e.g. base Client and Connection classes) used by all of the  google-cloud-*.
-  doc_url: https://googleapis.dev/python/google-cloud-core/latest/index.html
+  doc_url: https://googleapis.dev/python/google-cloud-core/latest/
   dev_url: https://github.com/googleapis/google-cloud-python/tree/master/core
 
 extra:
