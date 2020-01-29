@@ -1,7 +1,7 @@
 About google-cloud-core
 =======================
 
-Home: https://github.com/GoogleCloudPlatform/google-cloud-python/tree/master/core
+Home: https://github.com/googleapis/google-cloud-python/tree/master/core
 
 Package license: Apache-2.0
 
@@ -116,6 +116,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@leahecole](https://github.com/leahecole/)
 * [@parthea](https://github.com/parthea/)
 * [@tswast](https://github.com/tswast/)
 

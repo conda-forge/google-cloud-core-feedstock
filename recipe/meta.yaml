@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "pip install . --no-deps -vv"
 
@@ -47,6 +47,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - coleleah
+    - leahecole
     - parthea
     - tswast
