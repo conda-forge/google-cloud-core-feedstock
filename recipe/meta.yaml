@@ -24,7 +24,7 @@ requirements:
 
   run:
     - python
-    - google-api-core >=1.14.0,<2.0.0dev
+    - google-api-core >=1.16.0,<2.0.0dev
 
 test:
   imports:
@@ -35,17 +35,18 @@ test:
     - google.cloud.operation
 
 about:
-  home: https://github.com/GoogleCloudPlatform/google-cloud-python/tree/master/core
+  home: https://github.com/googleapis/google-cloud-python/tree/master/core
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
   summary: 'API Client library for Google Cloud: Core Helpers'
   description: This library is not meant to stand-alone. Instead it defines common helpers
     (e.g. base Client and Connection classes) used by all of the  google-cloud-*.
-  doc_url: https://googlecloudplatform.github.io/google-cloud-python/stable/google-cloud-api.html
-  dev_url: https://github.com/GoogleCloudPlatform/google-cloud-python/tree/master/core
+  doc_url: https://googleapis.dev/python/google-cloud-core/latest/
+  dev_url: https://github.com/googleapis/google-cloud-python/tree/master/core
 
 extra:
   recipe-maintainers:
+    - coleleah
     - parthea
     - tswast
