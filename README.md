@@ -1,7 +1,7 @@
 About google-cloud-core
 =======================
 
-Home: https://github.com/googleapis/google-cloud-python/tree/master/core
+Home: https://github.com/googleapis/python-cloud-core
 
 Package license: Apache-2.0
 
