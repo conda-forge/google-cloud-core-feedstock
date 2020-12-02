@@ -5,9 +5,13 @@ Home: https://github.com/googleapis/python-cloud-core
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-core-feedstock/blob/master/LICENSE.txt)
 
 Summary: API Client library for Google Cloud: Core Helpers
+
+Development: https://github.com/googleapis/python-cloud-core
+
+Documentation: https://googleapis.dev/python/google-cloud-core/latest/
 
 This library is not meant to stand-alone. Instead it defines common helpers (e.g. base Client and Connection classes) used by all of the  google-cloud-*.
 
