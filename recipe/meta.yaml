@@ -1,6 +1,6 @@
 {% set name = "google-cloud-core" %}
-{% set version = "1.4.3" %}
-{% set sha256 = "21afb70c1b0bce8eeb8abb5dca63c5fd37fc8aea18f4b6d60e803bd3d27e6b80" %}
+{% set version = "1.4.4" %}
+{% set sha256 = "5bf32a3476412bbbf37660d73c46a7217a0db7913d4f4db6490b56d7a93f1d86" %}
 
 package:
   name: {{ name|lower }}
@@ -17,14 +17,15 @@ build:
   script: pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
     - setuptools
 
   run:
-    - python
-    - google-api-core >=1.19.0,<2.0.0dev
+    - python >=3.5
+    - google-api-core >=1.21.0,<2.0.0dev
+    - six >=1.12.0
     - grpcio >=1.8.2,<2.0.0dev
 
 test:
