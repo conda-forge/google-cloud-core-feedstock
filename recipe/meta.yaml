@@ -1,6 +1,6 @@
 {% set name = "google-cloud-core" %}
-{% set version = "2.2.2" %}
-{% set sha256 = "7d19bf8868b410d0bdf5a03468a3f3f2db233c0ee86a023f4ecc2b7a4b15f736" %}
+{% set version = "2.2.3" %}
+{% set sha256 = "89d2f7189bc6dc74de128d423ea52cc8719f0a5dbccd9ca80433f6504a20255c" %}
 
 package:
   name: {{ name|lower }}
@@ -24,13 +24,12 @@ requirements:
 
   run:
     - python >=3.6
-    - google-api-core >=2.0.0,<3.0.0dev
-    - google-auth >=2.0.0,<3.0.0dev
+    - google-api-core >=1.31.5,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0
+    - google-auth >=1.25.0,<3.0dev
     - grpcio >=1.8.2,<2.0.0dev
 
 test:
   requires:
-    - python
     - pip
   imports:
     - google.api_core.client_info
@@ -39,7 +38,7 @@ test:
     - google.cloud.exceptions
     - google.cloud.operation
   commands:
-    - python -m pip check
+    - pip check
 
 about:
   home: https://github.com/googleapis/python-cloud-core
