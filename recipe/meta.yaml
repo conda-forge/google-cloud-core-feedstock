@@ -1,15 +1,13 @@
 {% set name = "google-cloud-core" %}
-{% set version = "2.3.2" %}
-{% set sha256 = "b9529ee7047fd8d4bf4a2182de619154240df17fbe60ead399078c1ae152af9a" %}
+{% set version = "2.3.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-core-{{ version }}.tar.gz
+  sha256: 37b80273c8d7eee1ae816b3a20ae43585ea50506cb0e60f3cf5be5f87f1373cb
 
 build:
   number: 0
@@ -54,6 +52,5 @@ about:
 extra:
   recipe-maintainers:
     - xylar
-    - leahecole
     - parthea
     - tswast
