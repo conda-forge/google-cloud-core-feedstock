@@ -1,5 +1,5 @@
 {% set name = "google-cloud-core" %}
-{% set version = "2.4.2" %}
+{% set version = "2.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: a4fcb0e2fcfd4bfe963837fad6d10943754fd79c1a50097d68540b6eb3d67f35
+  sha256: 1fab62d7102844b278fe6dead3af32408b1df3eb06f5c7e8634cbd40edc4da53
 
 build:
   number: 0
