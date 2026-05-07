@@ -3,13 +3,13 @@ About google-cloud-core-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-core-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/googleapis/python-cloud-core
+Home: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-core
 
 Package license: Apache-2.0
 
 Summary: API Client library for Google Cloud: Core Helpers
 
-Development: https://github.com/googleapis/python-cloud-core
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-core
 
 Documentation: https://googleapis.dev/python/google-cloud-core/latest/
 
