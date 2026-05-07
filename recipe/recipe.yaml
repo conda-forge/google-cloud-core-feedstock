@@ -26,6 +26,7 @@ requirements:
     - python >=${{ python_min }}
     - google-api-core >=2.11.0,<3.0.0
     - google-auth >=2.14.1,<3.0.0,!=2.24.0,!=2.25.0
+
 tests:
   - python:
       imports:
@@ -35,12 +36,7 @@ tests:
         - google.cloud.exceptions
         - google.cloud.operation
       python_version: ${{ python_min }}.*
-  - requirements:
-      run:
-        - pip
-        - python ${{ python_min }}.*
-    script:
-      - pip check
+      pip_check: true
 
 about:
   license: Apache-2.0
