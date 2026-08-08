@@ -46,31 +46,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `google-cloud-core` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install google-cloud-core
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install google-cloud-core
 ```
 
-It is possible to list all of the versions of `google-cloud-core` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add google-cloud-core
+# for installing globally
+pixi global install google-cloud-core
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `google-cloud-core` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search google-cloud-core --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search google-cloud-core --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search google-cloud-core --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -82,6 +124,8 @@ mamba repoquery whoneeds google-cloud-core --channel conda-forge
 # List dependencies of `google-cloud-core`:
 mamba repoquery depends google-cloud-core --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
